@@ -4,7 +4,7 @@
 
 Welcome to the **IPL Performance Analysis** project! This repository provides a detailed analysis of IPL matches from 2008 to 2024 using SQL. The project leverages advanced SQL techniques to uncover trends in team strategies, player performances, venue-specific dynamics, and championship outcomes. The findings of project can be accessed through the dashboard shown below
 ---
-![Dashboard](https://github.com/vishalbhadane98/IPL-Performance-Analysis/blob/main/Screenshot%202025-03-31%20152535.png)
+![Dashboard](https://github.com/vishalbhadane98/IPL-Performance-Analysis/blob/main/Dashboard.png)
 ---
 ## **Table of Contents**
 
