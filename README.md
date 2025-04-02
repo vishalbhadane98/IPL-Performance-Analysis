@@ -65,7 +65,7 @@ This project aims to analyze IPL match data to uncover valuable insights:
 
 ---
 
-## **Enhanced SQL Queries**
+## **SQL Queries**
 
 ### 1. Batting vs Fielding First Performance
 ```sql
@@ -92,7 +92,7 @@ ORDER BY total_matches DESC;
 ```
 ---
 
-### 2. Toss Decision Impact (Enhanced)
+### 2. Toss Decision Impact
 ```sql
 SELECT
 toss_decision,
@@ -156,17 +156,6 @@ GROUP BY winner;
 ```
 ---
 
-## **How to Use This Project**
-
-1. Clone this repository:
-git clone https://github.com/yourusername/IPL-Analysis-Dashboard.git
-
-text
-2. Import the dataset (`matches.csv`, `deliveries.csv`) into your SQL database.
-3. Execute the provided SQL queries to generate insights.
-4. Connect results to visualization tools like Tableau or Power BI for dashboards.
-
----
 
 ## **Project Status**
 ✅ Completed — Ready for use and further enhancements.
