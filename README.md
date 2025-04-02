@@ -149,7 +149,7 @@ FROM matches
 SELECT
 winner AS champion_team,
 COUNT(*) AS titles_won,
-STRING_AGG(season::text, ', ' ORDER BY season) AS winning_seasons -- PostgreSQL-specific function; replace with GROUP_CONCAT for MySQL.
+GROUP_CONCAT(season ORDER BY season ASC) AS winning_seasons
 FROM finals
 WHERE final_match_rank = 1
 GROUP BY winner;
